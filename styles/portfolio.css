@@ -110,6 +110,10 @@ p {
   margin-top: -30px;
 }
 
+.img-fluid {
+  border-radius: 50%;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -177,22 +181,23 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 42px;
     line-height: 1.5x;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 36px;
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .content {
     text-align: center;
     padding: 0;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
