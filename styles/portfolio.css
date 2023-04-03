@@ -84,6 +84,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: left;
+  color: var(--branding-color);
 }
 
 .site-navbar ul {
@@ -93,7 +94,6 @@ p {
   display: flex;
 }
 .site-navbar ul li a {
-  color: black;
   padding: 20px;
   display: block;
   text-decoration: none;
