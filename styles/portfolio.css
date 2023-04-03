@@ -195,3 +195,56 @@ section .social-links a:hover {
     overflow: visible;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .hero h1 {
+    font-size: 22px;
+  }
+  .hero h2 {
+    font-size: 16px;
+  }
+  .hero h3 {
+    font-size: 12px;
+  }
+
+  .hero img {
+    width: 150px;
+  }
+
+  .btn-branding {
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 20px;
+  }
+
+  footer {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .content h3 {
+    font-size: 13px;
+  }
+
+  .content h4 {
+    font-size: 14px;
+    text-align: left;
+  }
+  .content h5 {
+    font-size: 12px;
+  }
+
+  .content a {
+    font-size: 10px;
+  }
+
+  .content p {
+    font-size: 10px;
+  }
+
+  .content img {
+    width: 400px;
+    margin-left: 20px;
+  }
+}
