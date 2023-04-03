@@ -159,7 +159,7 @@ section .social-links a:hover {
   .container {
     max-width: 720px;
   }
-  /* navbar css for mobile start */
+
   .nav-toggler {
     display: block;
   }
