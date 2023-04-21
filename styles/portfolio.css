@@ -1,6 +1,6 @@
 body {
   background-color: #0a0725;
-  margin: 5px auto;
+  margin: 10px auto;
 }
 
 p {
@@ -10,16 +10,10 @@ p {
   color: whitesmoke;
 }
 
-.container {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .hero {
   text-align: center;
-  padding: 40px 20px;
+  margin: 40px auto;
+  padding: 0 auto;
 }
 
 .hero h1 {
@@ -81,7 +75,7 @@ h5 {
 }
 
 .section-projects .card {
-  margin: 10px auto;
+  margin: 20px auto;
   padding: auto;
 }
 
@@ -89,8 +83,9 @@ h5 {
   background-color: #ee5a24;
   color: whitesmoke;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
+  margin-left: 10px;
   padding: 15px 30px;
 }
 
