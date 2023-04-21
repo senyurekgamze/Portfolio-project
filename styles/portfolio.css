@@ -1,19 +1,19 @@
 body {
   background-color: #0a0725;
-  margin: 10px auto;
+  margin: 20px auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 p {
   font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 22px;
   color: whitesmoke;
 }
 
 .hero {
   text-align: center;
-  margin: 40px auto;
-  padding: 0 auto;
+  margin: 50px auto;
+  padding: 10px auto;
 }
 
 .hero h1 {
@@ -30,11 +30,6 @@ p {
 .hero h3 {
   font-size: 22px;
   color: whitesmoke;
-}
-
-p {
-  color: whitesmoke;
-  font-size: 18px;
 }
 
 h3 {
@@ -79,7 +74,7 @@ h5 {
   padding: auto;
 }
 
-.btn {
+.button {
   background-color: #ee5a24;
   color: whitesmoke;
   border-radius: 4px;
@@ -87,6 +82,7 @@ h5 {
   line-height: 27px;
   margin-left: 10px;
   padding: 15px 30px;
+  text-decoration: none;
 }
 
 .site-navbar {
@@ -97,13 +93,12 @@ h5 {
 }
 
 footer {
-  margin: 20px;
   font-size: smaller;
   color: whitesmoke;
 }
 
 section .social-links a {
-  margin: 0 20px;
+  margin: 40px 20px;
   color: #c4e538;
   padding: 10px 14px;
   border-radius: 50%;
@@ -113,4 +108,8 @@ section .social-links a {
 
 section .social-links a:hover {
   color: whitesmoke;
+}
+
+.navbar-toggler-icon {
+  background-color: whitesmoke;
 }
