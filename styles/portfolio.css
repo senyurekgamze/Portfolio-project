@@ -101,55 +101,6 @@ h5 {
   color: #ed4c67;
 }
 
-.site-navbar ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-.site-navbar ul li a {
-  padding: 20px;
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #c4e538;
-  font-weight: bolder;
-}
-
-.nav-toggler {
-  padding: 5px;
-  background-color: transparent;
-  cursor: pointer;
-  height: 19px;
-  display: none;
-}
-.nav-toggler span,
-.nav-toggler span:before,
-.nav-toggler span:after {
-  width: 28px;
-  height: 2px;
-  background-color: #c4e538;
-  display: block;
-  transition: 0.3s;
-}
-.nav-toggler span:before {
-  content: "";
-  transform: translateY(-9px);
-}
-.nav-toggler span:after {
-  content: "";
-  transform: translateY(6px);
-}
-.nav-toggler.toggler-open span {
-  background-color: transparent;
-}
-.nav-toggler.toggler-open span:before {
-  transform: translateY(0px) rotate(45deg);
-}
-.nav-toggler.toggler-open span:after {
-  transform: translateY(-3px) rotate(-45deg);
-}
-
 footer {
   margin: 20px;
   font-size: smaller;
